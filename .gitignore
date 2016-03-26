@@ -1,5 +1,7 @@
 *.class
 
+#eclipse
+RemoteSystemsTempFiles/
 bin/
 gen/
 .metadata/
