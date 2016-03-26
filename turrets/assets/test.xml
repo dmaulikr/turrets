@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<turret>
+    <global>
+        <p id="box.size" value="1"/>
+        <p id="box." value="1"/>
+    </global>
+	<textures>
+	    <p id="ground" value="ground.png"/>
+	</textures>
+	<material>
+	    <simple id="ground">
+	        <texture1 textureId="ground"/>
+	        <texture2 textureId=""/>
+	    </simple>
+	    <transparent>
+	        <texture1 textureId="ground"/>
+	        <texture2 textureId=""/>
+	        <opaque value="1.0"/>
+	    </transparent>
+	    
+	</material>
+</turret>

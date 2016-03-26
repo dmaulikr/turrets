@@ -1,0 +1,123 @@
+Objective:
+Collect gold star. Secondary, destroy all buildings. Bonus, destroy all turrets and missile launchers.
+
+Game Play:
+This will be a first person. The user will be able to move in four directions and look around by dragging on the screen. A tap will perform
+an action (shoot or fire cannon).  
+Turrets and missiles cause damage. Need to destroy random things to find gems to create power ups. 
+
+
+Game Features:
+Levels are randomly generated. Status screen at the end of a level when the star is collected:
+	1) How long it took you to complete the level.
+	2) How many turrets you destroyed and total in the level.
+	3) How many missile launchers and total in the level.
+	4) How many buildings and total in the level.
+Each level you start with nothing but a default gun. As you destroy rocks and trees you can find gems that allow you to build power ups.
+
+HUD:
+  Health bar, cannon energy, 4 move arrows, weapon select and menu. Drag finger on screen to look around. tap to fire once. 
+  tap and hold to continue to fire.
+
+	-----------------------------------------------------------------	
+	|   =====    <health>						|
+	|   =-=-=-=- <Energy>				   | Menu |	|
+	|								|
+	|  ___								|
+	| | 1 |	<default gun>						|
+        |  ___								|
+	| | 2 |	<sniper>		+  <center>			|
+	   ___								|
+	| | 3 |	<cannon>			   	     		|
+	|								|							|
+	|    _							        |
+	|  _|^|_				                        |
+	| |<   >|  <move>					        |
+	|   |v|					   			|
+	|    								|
+	-----------------------------------------------------------------
+Actions:
+User can perform the following actions:
+	* Move using arrows on HUD.
+	* Look around by dragging on the touch screen.
+	* Perform action like firing a weapon by selecting one of the action buttons then tapping on the screen.
+
+Menu:
+	Save, Quit, list power ups, apply gems towards a power up.
+	-----------------------------------------------------------------
+	| Gems 100							|
+	|								|
+	| Power up		Gems Needed			Upgrade	|		
+	|...............................................................|
+	|								|	
+	| Bigger Cannon		10	     			Get it	|
+	| Speed Shoes		10	     			Get it	|	
+	| 								|
+	|								|
+	|								|
+	|  ______						 ______	|
+	| | Save |						| Quit ||
+	-----------------------------------------------------------------
+Power Ups:
+	Detect Turrets		
+	Long Range
+	More Energy
+	Quick Recover
+	Bigger Cannon
+	Speed Shoes
+
+Main Menu:
+	-----------------------------------------------------------------
+	|								|
+	|		     						|
+	|		New --  |Easy  | Normal | Hard	|		|
+	|		================================		|
+	|		Load -- |slot1 | slot2  | slot3	|       	|
+	|								|
+	|								|
+	|								|
+	|								|
+	-----------------------------------------------------------------
+
+Environment:
+	The environment will have terrain with hills, vallies, and shallow water. Trees bushes and rocks can be used 
+	for cover but can also be destroied. enemy bases will have walls around them. when damage is done to a wall it will 
+	crack.
+
+Block Types:
+	Ground - grass, dirt, sand, water
+	Enemy - turret, missiles, cannon
+	Walls - wood, stone, concrete
+	buildings with windows
+	Items - gold star, gems
+	Other - tree leaves, tree trunks, bushes, rocks
+Graphic:
+	sky-box that transitions from day to night
+	shaders - ambient color, texture 1 and texture 2 textureBlendFactor.
+	geometry - render boxes of different sizes. with position and texture coordinates 
+
+	
+
+
+
+TODO:
+	Add font output
+	Render a cube
+X	Add texture
+X	Create a camera class	
+X	Swipe/touch input
+	2D buttons and quads
+	jBullete
+	Geometry Builder
+	Delayed debug output	
+	
+	Create Main Menu
+	Create In-Game Menu
+	Save Game
+	Load Game
+	Generate terrain
+	AI for turrets, cannons, and missiles
+	Game Credits
+	Sound effects (explosions, gun fire)
+	Background Sound (nature sounds)
+	texture blend animations
